@@ -14,8 +14,14 @@ import android.view.MotionEvent;
 
 public class Comics_Scripts extends AppCompatActivity {
 
+<<<<<<< HEAD
     String tem = "Set up action";
     View v;
+=======
+    String DEBUG_TAG = "Gesture";
+
+    View my_view = findViewById(R.id.imageView2);
+>>>>>>> parent of e358114... little editing
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,11 +45,20 @@ public class Comics_Scripts extends AppCompatActivity {
             }
         });
 
+<<<<<<< HEAD
         tem = getIntent().getStringExtra("Chpone");
 
         v = findViewById(R.id.imageView2);
         v.setBackgroundResource(R.drawable.cp1);
 
+=======
+        my_view.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event) {
+                // ... Respond to touch events
+                return true;
+            }
+        });
+>>>>>>> parent of e358114... little editing
     }
 
 

@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_camara"
             android:icon="@android:drawable/ic_menu_camera"
-            android:title="Chapters" />
+            android:title="Import" />
 
         <item android:id="@+id/nav_gallery"
             android:icon="@android:drawable/ic_menu_gallery"
@@ -12,8 +12,11 @@
 
         <item android:id="@+id/nav_slideshow"
             android:icon="@android:drawable/ic_menu_slideshow"
-            android:title="Comment" />
+            android:title="Slideshow" />
 
+        <item android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Tools" />
     </group>
 
     <item android:title="Communicate">
