@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JamBlasting.iml" filepath="$PROJECT_DIR$/JamBlasting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JamBlastComic-s.iml" filepath="$PROJECT_DIR$/JamBlastComic-s.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
