@@ -13,9 +13,6 @@ import android.view.MotionEvent;
 
 public class Comics_Scripts extends AppCompatActivity {
 
-    String DEBUG_TAG = "Gesture";
-
-    View my_view = findViewById(R.id.imageView2);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,13 +27,6 @@ public class Comics_Scripts extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-            }
-        });
-
-        my_view.setOnTouchListener(new View.OnTouchListener() {
-            public boolean onTouch(View v, MotionEvent event) {
-                // ... Respond to touch events
-                return true;
             }
         });
     }
