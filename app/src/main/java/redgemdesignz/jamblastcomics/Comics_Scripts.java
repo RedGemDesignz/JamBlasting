@@ -13,6 +13,7 @@ import android.view.MotionEvent;
 
 public class Comics_Scripts extends AppCompatActivity {
 
+    String tem = "Set up action";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +26,14 @@ public class Comics_Scripts extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Snackbar.make(view, "u'lll see more", Snackbar.LENGTH_LONG)
+                        .setAction("Action", new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        //TODO Action
+                                    }
+                                }
+                        ).show();
             }
         });
     }
