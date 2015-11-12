@@ -29,6 +29,6 @@
         android:layout_height="27dp"
         android:text="arteezja@yahoo.com"
         android:id="@+id/textView"
-        android:textColor="green" />
+        android:textColor="#303F9F" />
 
 </LinearLayout>
