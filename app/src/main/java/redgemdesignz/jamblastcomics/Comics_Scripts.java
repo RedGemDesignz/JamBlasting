@@ -13,7 +13,7 @@ import android.view.MotionEvent;
 
 public class Comics_Scripts extends AppCompatActivity {
 
-    String DEBUG_TAG = "test rund";
+    String DEBUG_TAG = "Gesture";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
