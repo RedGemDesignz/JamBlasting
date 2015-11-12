@@ -58,6 +58,16 @@
                 android:id="@+id/textView3"
                 android:textSize="20dp"
                 android:textColor="#111111" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chapter 2"
+                android:id="@+id/textView4"
+                android:textSize="20dp"
+                android:textColor="#111111"
+                android:layout_column="1" />
+
         </TableRow>
 
         <TableRow
@@ -79,6 +89,29 @@
                 android:id="@+id/imageView6"
                 android:layout_column="1"
                 android:layout_marginTop="10dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chapter 3"
+                android:id="@+id/textView5"
+                android:textSize="20dp"
+                android:textColor="#111111"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chapter 4"
+                android:id="@+id/textView6"
+                android:textSize="20dp"
+                android:textColor="#111111"
+                android:layout_column="1" />
         </TableRow>
 
     </TableLayout>
