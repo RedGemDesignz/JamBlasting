@@ -1,6 +1,7 @@
 package redgemdesignz.jamblastcomics;
 
 import android.os.Bundle;
+import android.support.annotation.DrawableRes;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.MotionEventCompat;
@@ -14,6 +15,7 @@ import android.view.MotionEvent;
 public class Comics_Scripts extends AppCompatActivity {
 
     String tem = "Set up action";
+    View v;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,12 @@ public class Comics_Scripts extends AppCompatActivity {
                         ).show();
             }
         });
+
+        tem = getIntent().getStringExtra("Chpone");
+
+        v = findViewById(R.id.imageView2);
+        v.setBackgroundResource(R.drawable.cp1);
+
     }
 
 

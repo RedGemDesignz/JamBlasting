@@ -16,7 +16,7 @@ import android.view.MenuItem;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    Intent Nav = new
+    Intent Nav = new Intent(this,Comics_Scripts.class);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +47,11 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    public void Chapter_one(View v){
+        Nav.putExtra("chpone", "drawable/cp1");
+        startActivity(Nav);
     }
 
     @Override

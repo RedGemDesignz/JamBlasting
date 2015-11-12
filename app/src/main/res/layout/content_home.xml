@@ -20,7 +20,7 @@
         android:id="@+id/textView2"
         android:textSize="25dp"
         android:singleLine="true"
-        android:textColor="#cfd8dc" />
+        android:textColor="#cfd8dc"/>
 
     <TableLayout
         android:layout_width="match_parent"
@@ -36,7 +36,8 @@
                 android:src="@drawable/cp1"
                 android:layout_width="186dp"
                 android:layout_height="187dp"
-                android:id="@+id/imageView3" />
+                android:id="@+id/imageView3"
+                android:onClick="Chapter_one"/>
 
             <ImageView
                 android:src="@drawable/cpp1"
