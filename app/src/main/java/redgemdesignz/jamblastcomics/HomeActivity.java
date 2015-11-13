@@ -1,5 +1,6 @@
 package redgemdesignz.jamblastcomics;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,6 +16,7 @@ import android.view.MenuItem;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    Intent Nav = new Intent(this,Comics_Scripts.class);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +30,12 @@ public class HomeActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                        .setAction("Action", new View.OnClickListener(){
+                            @Override
+                             public void onClick(View v){
+
+                            }
+                        }).show();
             }
         });
 
@@ -40,6 +47,11 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    public void Chapter_one(View v){
+        Nav.putExtra("chpone", "drawable/cp1");
+        startActivity(Nav);
     }
 
     @Override

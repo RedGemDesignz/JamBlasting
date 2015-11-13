@@ -20,7 +20,7 @@
         android:id="@+id/textView2"
         android:textSize="25dp"
         android:singleLine="true"
-        android:textColor="#cfd8dc" />
+        android:textColor="#cfd8dc"/>
 
     <TableLayout
         android:layout_width="match_parent"
@@ -36,7 +36,8 @@
                 android:src="@drawable/cp1"
                 android:layout_width="186dp"
                 android:layout_height="187dp"
-                android:id="@+id/imageView3" />
+                android:id="@+id/imageView3"
+                android:onClick="Chapter_one"/>
 
             <ImageView
                 android:src="@drawable/cpp1"
@@ -57,6 +58,7 @@
                 android:text="Chapter 1"
                 android:id="@+id/textView3"
                 android:textSize="20dp"
+<<<<<<< HEAD
                 android:textColor="#111111"
                 android:textStyle="bold" />
 
@@ -70,6 +72,9 @@
                 android:layout_column="1"
                 android:textStyle="bold" />
 
+=======
+                android:textColor="#111111" />
+>>>>>>> origin/master
         </TableRow>
 
         <TableRow
@@ -93,6 +98,7 @@
                 android:layout_marginTop="10dp" />
         </TableRow>
 
+<<<<<<< HEAD
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -118,6 +124,8 @@
                 android:textStyle="bold" />
         </TableRow>
 
+=======
+>>>>>>> origin/master
     </TableLayout>
 
 </RelativeLayout>
