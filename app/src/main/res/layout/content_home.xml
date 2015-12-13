@@ -58,6 +58,7 @@
                 android:text="Chapter 1"
                 android:id="@+id/textView3"
                 android:textSize="20dp"
+<<<<<<< HEAD
                 android:textColor="#111111"
                 android:textStyle="bold" />
 
@@ -72,6 +73,9 @@
                 android:textStyle="bold" />
 
 
+=======
+                android:textColor="#111111" />
+>>>>>>> parent of 48785bc... Update
         </TableRow>
 
         <TableRow
@@ -95,6 +99,7 @@
                 android:layout_marginTop="10dp" />
         </TableRow>
 
+<<<<<<< HEAD
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -126,6 +131,8 @@
 
         </TableRow>
 
+=======
+>>>>>>> parent of 48785bc... Update
     </TableLayout>
 
 </ScrollView>
